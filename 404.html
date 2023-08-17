@@ -3,6 +3,8 @@
 <script>
 var url = purl();
 console.log(url.attr('host'))
+
+window.location.replace("https://ant.design/~demos/result-demo-404");
 if (url.attr('host') == 'www.yogihu.com') {
     var old_url = url.attr('source');
     var new_url = old_url.replace('www.yogihu.com', "yogihu.com");
